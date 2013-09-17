@@ -56,6 +56,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.label.text = [NSString stringWithFormat:@"Ha Ha #%d",counter];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
