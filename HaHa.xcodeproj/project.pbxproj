@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1700F917E8C24E00427FA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1700F817E8C24E00427FA0 /* UIKit.framework */; };
+		3F1700FB17E8C24E00427FA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1700FA17E8C24E00427FA0 /* Foundation.framework */; };
+		3F1700FD17E8C24E00427FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1700FC17E8C24E00427FA0 /* CoreGraphics.framework */; };
+		3F17010317E8C24E00427FA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F17010117E8C24E00427FA0 /* InfoPlist.strings */; };
+		3F17010517E8C24E00427FA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17010417E8C24E00427FA0 /* main.m */; };
+		3F17010917E8C24E00427FA0 /* HaHaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17010817E8C24E00427FA0 /* HaHaAppDelegate.m */; };
+		3F17010B17E8C24E00427FA0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F17010A17E8C24E00427FA0 /* Default.png */; };
+		3F17010D17E8C24E00427FA0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F17010C17E8C24E00427FA0 /* Default@2x.png */; };
+		3F17010F17E8C24E00427FA0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F17010E17E8C24E00427FA0 /* Default-568h@2x.png */; };
+		3F17011217E8C24E00427FA0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F17011017E8C24E00427FA0 /* MainStoryboard.storyboard */; };
+		3F17011517E8C24E00427FA0 /* HaHaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17011417E8C24E00427FA0 /* HaHaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F1700F517E8C24E00427FA0 /* HaHa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaHa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1700F817E8C24E00427FA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F1700FA17E8C24E00427FA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F1700FC17E8C24E00427FA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F17010017E8C24E00427FA0 /* HaHa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HaHa-Info.plist"; sourceTree = "<group>"; };
+		3F17010217E8C24E00427FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F17010417E8C24E00427FA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F17010617E8C24E00427FA0 /* HaHa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HaHa-Prefix.pch"; sourceTree = "<group>"; };
+		3F17010717E8C24E00427FA0 /* HaHaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaHaAppDelegate.h; sourceTree = "<group>"; };
+		3F17010817E8C24E00427FA0 /* HaHaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaHaAppDelegate.m; sourceTree = "<group>"; };
+		3F17010A17E8C24E00427FA0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3F17010C17E8C24E00427FA0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F17010E17E8C24E00427FA0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F17011117E8C24E00427FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3F17011317E8C24E00427FA0 /* HaHaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaHaViewController.h; sourceTree = "<group>"; };
+		3F17011417E8C24E00427FA0 /* HaHaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaHaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1700F217E8C24E00427FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1700F917E8C24E00427FA0 /* UIKit.framework in Frameworks */,
+				3F1700FB17E8C24E00427FA0 /* Foundation.framework in Frameworks */,
+				3F1700FD17E8C24E00427FA0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1700EC17E8C24E00427FA0 = {
+			isa = PBXGroup;
+			children = (
+				3F1700FE17E8C24E00427FA0 /* HaHa */,
+				3F1700F717E8C24E00427FA0 /* Frameworks */,
+				3F1700F617E8C24E00427FA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1700F617E8C24E00427FA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1700F517E8C24E00427FA0 /* HaHa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1700F717E8C24E00427FA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F1700F817E8C24E00427FA0 /* UIKit.framework */,
+				3F1700FA17E8C24E00427FA0 /* Foundation.framework */,
+				3F1700FC17E8C24E00427FA0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F1700FE17E8C24E00427FA0 /* HaHa */ = {
+			isa = PBXGroup;
+			children = (
+				3F17010717E8C24E00427FA0 /* HaHaAppDelegate.h */,
+				3F17010817E8C24E00427FA0 /* HaHaAppDelegate.m */,
+				3F17011017E8C24E00427FA0 /* MainStoryboard.storyboard */,
+				3F17011317E8C24E00427FA0 /* HaHaViewController.h */,
+				3F17011417E8C24E00427FA0 /* HaHaViewController.m */,
+				3F1700FF17E8C24E00427FA0 /* Supporting Files */,
+			);
+			path = HaHa;
+			sourceTree = "<group>";
+		};
+		3F1700FF17E8C24E00427FA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F17010017E8C24E00427FA0 /* HaHa-Info.plist */,
+				3F17010117E8C24E00427FA0 /* InfoPlist.strings */,
+				3F17010417E8C24E00427FA0 /* main.m */,
+				3F17010617E8C24E00427FA0 /* HaHa-Prefix.pch */,
+				3F17010A17E8C24E00427FA0 /* Default.png */,
+				3F17010C17E8C24E00427FA0 /* Default@2x.png */,
+				3F17010E17E8C24E00427FA0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1700F417E8C24E00427FA0 /* HaHa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F17011817E8C24E00427FA0 /* Build configuration list for PBXNativeTarget "HaHa" */;
+			buildPhases = (
+				3F1700F117E8C24E00427FA0 /* Sources */,
+				3F1700F217E8C24E00427FA0 /* Frameworks */,
+				3F1700F317E8C24E00427FA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaHa;
+			productName = HaHa;
+			productReference = 3F1700F517E8C24E00427FA0 /* HaHa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1700ED17E8C24E00427FA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HaHa;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nick Smith";
+			};
+			buildConfigurationList = 3F1700F017E8C24E00427FA0 /* Build configuration list for PBXProject "HaHa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F1700EC17E8C24E00427FA0;
+			productRefGroup = 3F1700F617E8C24E00427FA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1700F417E8C24E00427FA0 /* HaHa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1700F317E8C24E00427FA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F17010317E8C24E00427FA0 /* InfoPlist.strings in Resources */,
+				3F17010B17E8C24E00427FA0 /* Default.png in Resources */,
+				3F17010D17E8C24E00427FA0 /* Default@2x.png in Resources */,
+				3F17010F17E8C24E00427FA0 /* Default-568h@2x.png in Resources */,
+				3F17011217E8C24E00427FA0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1700F117E8C24E00427FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F17010517E8C24E00427FA0 /* main.m in Sources */,
+				3F17010917E8C24E00427FA0 /* HaHaAppDelegate.m in Sources */,
+				3F17011517E8C24E00427FA0 /* HaHaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F17010117E8C24E00427FA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F17010217E8C24E00427FA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F17011017E8C24E00427FA0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F17011117E8C24E00427FA0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F17011617E8C24E00427FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F17011717E8C24E00427FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F17011917E8C24E00427FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaHa/HaHa-Prefix.pch";
+				INFOPLIST_FILE = "HaHa/HaHa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F17011A17E8C24E00427FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaHa/HaHa-Prefix.pch";
+				INFOPLIST_FILE = "HaHa/HaHa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1700F017E8C24E00427FA0 /* Build configuration list for PBXProject "HaHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F17011617E8C24E00427FA0 /* Debug */,
+				3F17011717E8C24E00427FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F17011817E8C24E00427FA0 /* Build configuration list for PBXNativeTarget "HaHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F17011917E8C24E00427FA0 /* Debug */,
+				3F17011A17E8C24E00427FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1700ED17E8C24E00427FA0 /* Project object */;
+}
